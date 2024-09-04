@@ -1,0 +1,249 @@
+\documentclass[12pt, letterpaper, oneside]{book}
+\usepackage{cleveref}
+
+\crefformat{chapter}{\S#2#1#3}
+\crefformat{section}{\S#2#1#3} % see manual of cleveref, section 8.2.1
+\crefformat{subsection}{\S#2#1#3}
+\crefformat{subsubsection}{\S#2#1#3}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[R,L]{}
+\fancyhead[C]{\leftmark}
+
+\makeatletter
+\@addtoreset{chapter}{part}
+\makeatother
+
+\title{Bylaws and Regulations \\ of \\ the WPI ACM Chapter}
+\author{WPI Association for Computing Machinery}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+\newpage
+
+\renewcommand{\chaptername}{Article}
+
+\chapter{Name and Purpose}
+\begin{enumerate}
+    \item This organization shall be known as the Worcester Polytechnic
+        Institute Chapter of the Association for Computing Machinery, hereafter
+        referred to as "the Club", or "Chapter"
+    \item The purpose of the Club shall be to:
+        \begin{enumerate}
+            \item Promote increased knowledge of the science, design,
+                development, construction, languages, and applications of modern
+                computing machinery
+            \item Promote a greater interest in computing machinery and its
+                applications
+            \item Provide a means of communication between persons having
+                interest in computing machinery
+        \end{enumerate}
+\end{enumerate}
+
+\chapter{Membership}
+\section{Classes of Membership} \label{sec:memberclasses}
+\begin{enumerate}
+    \item Any member of the WPI community as defined by the University is
+        eligble for membership.
+    \item \label{itm:memberclasses} There shall be three classes of membership in the Chapter: Associate,
+        Active, and Away.
+        \subitem Associate members are any members who do not meet the
+        requirements for Active membership.
+        \subitem Active members are any members who, within the last
+        term, attended at least three Chapter events and has been
+        approved by the Executive Board.
+        \subitem Away members are members who have been granted such status by
+        the executive board, subject to \cref{itm:awaystatus} of this section.
+    \item \label{itm:associate} Any member of the WPI community may become an
+        Associate Member by demonstrating an interest in the Chapter or its
+        purpose.
+    \item \label{itm:activation} An Associate member can only be made an Active
+        member by the Executive Board.
+    \item \label{itm:deactivation} An Active member may be deactivated (made
+        into an Associate member) by the Executive Board if said member no
+        longer meets the requirements for active status as specified in this
+        section.
+    \item \label{itm:expulsion} If a member's actions are determined to have
+        been detrimental to the Chapter, the Executive Board may revoke said
+        member's membership.
+    \item \label{itm:awaystatus} An Active member who will be absent from the
+        University for off-campus academic activity may petition the Executive
+        Board for Away status. Members on ``away status'' are exempt from the
+        active member requirements.
+\end{enumerate}
+
+\section{Privileges of Membership}
+\begin{enumerate}
+    \item Associate and active members are allowed access to Chapter
+        infrastructure at the discretion of the System Administrator.
+    \item Active members may vote on all issues before the Club. These members
+        shall be referred to as the ``voting membership''.
+\end{enumerate}
+
+\chapter{Executive Board}
+\section{Officers}
+\begin{enumerate}
+    \item The officers of the Chapter shall be President, Vice-President,
+        Secretary, Treasurer, Events Coordinator, Public Relations Chair, and
+        System Administrator.
+    \item All officers must be student members of the international ACM and of
+        the Chapter.
+    \item Officers shall be elected at the annual Election Meeting. Officers
+        shall take office immediately after the Election Meeting and serve until
+        the end of the next Election Meeting.
+    \item Any one member may not serve as President or Vice-President for more
+        than two consecutive years.
+    \item A minimum of two Hackathon Managers are required each year. The
+        President and Vice-President can appoint more than two by mutual
+        agreement.
+    \item Any officer may resign their position by submitting written notice to
+        the Executive Board. A special election must then be conducted to fill
+        the vacancy.
+    \item In the event the Presidency is vacated, the Vice-President will
+        succeed automatically.
+    \item Officers may be removed by a 2/3rds majority of the Executive Board.
+\end{enumerate}
+
+\section{Duties of Officers}
+\begin{enumerate}
+    \item The President shall preside at all meetings of the Chapter
+        and the Executive Board. They shall represent the Chapter at all
+        meetings with the ACM regional and national leadership. They are
+        responsible for representing the organization in all communications and
+        meetings with the WPI Computer Science Department.
+    \item The Vice-President is responsible for assisting the President in
+        carrying out their duties.
+    \item The Secretary shall keep minutes of all meetings of the Chapter. They
+        shall prepare the Annual Chapter Report prior to the annual Election
+        meeting, and present it at said meeting. They shall keep an accurate
+        record of membership, and notify the membership of events and meetings.
+        They shall keep CampusGroups up to date with events, members, and
+        officers.
+    \item The Treasurer shall collect dues and maintain financial records. They
+        shall make the annual report of the Chapter's finances to the Secretary
+        for inclusion in the Annual Report. They shall represent the Chapter to
+        the Student Government Association for budgeting and special funding
+        requests.
+    \item The Events Coordinator shall reserve rooms for club events, and serve
+        as the point of contact to campus service providers for Chapter events.
+        They shall work on improving Chapter events, and be the main planner for
+        all Chapter events besides the Hackathon.
+    \item The Hackathon Managers shall be the primary planners for the annual
+        Hackathon hosted by the Chapter. They are responsible for leading the
+        organizing team and ensuring the success of the event.
+    \item The Public Relations Chair shall be responsible for raising awareness
+        about the Chapter using any effective means. They are responsible for
+        maintaining and posting on all social media platforms used by the
+        Chapter. They are responsible for logos, branding, and merchandise.
+    \item The System Administrator shall be responsible for maintaining the
+        Chapter website, Mirror service, and all other infrastructure-related
+        matters.
+\end{enumerate}
+
+\section{Committees}
+\begin{enumerate}
+    \item The Executive Board shall have the power to create and dissolve such
+        committees as they see fit.
+    \item Notwithstanding the above section, the Hackathon Committee must always
+        exist. The Hackathon Committee is chaired by the Hackathon Managers, and
+        is responsible for the execution of the annual Hackathon.
+    \item The President is considered an \emph{ex offico} member of all
+        committees.
+\end{enumerate}
+
+\chapter{Meetings}
+\begin{enumerate}
+    \item Chapter Meetings shall be held at least three times per term, as
+        determined by the Events Coordinator.
+    \item The Annual Election Meeting shall be held as the second to last
+        meeting of C term. This meeting will consist of the election of all
+        officers, and the presentation of the Annual Report by the Secretary.
+    \item The Executive Board shall hold weekly planning meetings. These
+        meetings should nominally be open to active members.
+        \subitem The Executive Board may move to an executive session containing
+        only current officers and the Advisor following a motion by an officer.
+\end{enumerate}
+
+\chapter{Elections}
+\section{Eligibility for Office}
+\begin{enumerate}
+    \item All officers must be active members as defined in
+        section \cref{sec:memberclasses} \cref{itm:memberclasses}.
+    \item Any active member who expects to be a full-time undergraduate student
+        for the duration of their term of office is eligble for election.
+    \item No person may hold more than one office.
+\end{enumerate}
+\section{Nominations}
+\begin{enumerate}
+    \item Nominations for elections shall be solicited from the voting
+        membership for the two weeks prior to the Annual Election Meeting.
+    \item Nominees must either accept or decline their nomination by the start
+        of the Election Meeting.
+    \item In the event that a position receives only one nomination, a
+        confidence vote shall be conducted.
+\end{enumerate}
+
+\section{Voting} \label{sec:voting}
+\begin{enumerate}
+    \item \label{itm:tellers} Voting will be conducted by secret ballot. Each ballot should be in
+        the form of a ranked list of candidate names or the word ``abstain''.
+        Any other text will count as a vote of no confidence.
+    \item Votes shall be counted by the Teller, who shall be either the Chapter
+        Advisor, the Advisor's designee, or a current or former member of the
+        Executive Board who is not running for a position.
+    \item Absentee ballots will be accepted in the form of written communication
+        in the form of an ordered list of names, the word ``abstain'' or ``no
+        confidence'' in descending order for each office. This written
+        communication shall be submitted to the Teller in accordance with
+        \cref{itm:tellers} of this section.
+    \item Votes will be counted according to the method of Ranked Choice Voting.
+\end{enumerate}
+
+\chapter{Advisor}
+\begin{enumerate}
+    \item The Chapter Advisor shall be selected by the Executive Board with the
+        aid of the University and shall be approved by both a 2/3rds majority of
+        the voting membership and the ACM.
+    \item The Advisor will not have voting privileges in any matters.
+    \item The Advisor will act as a consultant in matters before the Chapter.
+    \item The Advisor may attend meetings and activities of the Chapter as seen
+        fit and is entitled to all notifications given to members.
+\end{enumerate}
+
+\chapter{Parliamentary Authority}
+\begin{enumerate}
+    \item The rules contained in the current edition of \emph{Robert's Rules of
+        Order Newly Revised} shall govern this Chapter in all cases to which
+        they are applicable and are not inconsistent with these Bylaws.
+    \item In the event that a conflict exists, these Bylaws shall supersede any
+        appendix or other Chapter document.
+\end{enumerate}
+
+\chapter{Amendments}
+\begin{enumerate}
+    \item Any active member may propose amendments to these Bylaws or appendices
+        thereof to the Executive Board in writing. The Executive Board must
+        present all proposed amendments to the Chapter within two weeks of their
+        proposal.
+    \item A vote to amend these Bylaws must be taken at the next consecutive
+        business meeting following notification to the Chapter.
+        \subitem A 2/3rds majority of the voting membership is required to pass
+        any amendments. Voting will take place by a show of hands for and
+        against the proposed amendment.
+    \item At least once every two academic years, the Executive Board will
+        appoint a committee to review the current Bylaws and, if necessary,
+        propose amendments to these Bylaws to the Chapter.
+\end{enumerate}
+
+\chapter{SOC Enabling Clause}
+The Worcester Polytechnic Institute chapter of the Association for Computing
+Machinery agrees to abide by the policies of the Worcester Polytechnic Institute
+as well as all federal, state, and local laws. Any changes to these Bylaws shall
+follow, in word and spirit, all University policies and all federal, state, and
+local laws.
+
+\end{document}
